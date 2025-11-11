@@ -15,11 +15,11 @@ export default function App() {
           다른 그라데이션이나 단색으로 바꿔보세요!
           예: bg-gradient-to-r from-red-500 to-pink-500
           또는: bg-green-500 (단색)
-      */}
-      <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-6 px-6 shadow-lg">
+      */} 
+      <header className="bg-gradient-to-r from-blue-300 to-slate-900 text-black py-6 px-6 shadow-lg">
         <div className="container mx-auto">
           <h1 className="text-4xl font-bold mb-2">나의 웹사이트</h1>
-          <p className="text-blue-100">Tailwind CSS로 만든 멋진 페이지</p>
+          <p className="text-white">Tailwind CSS로 만든 멋진 페이지</p>
         </div>
       </header>
 
@@ -33,7 +33,7 @@ export default function App() {
             - 모서리: rounded → rounded-full, rounded-lg 등
         */}
         <div className="mb-8 flex gap-4 flex-wrap">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition-all">
+          <button className="bg-red-400 hover:bg-pink-900 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition-all">
             기본 버튼
           </button>
           <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md hover:shadow-lg transition-all">
@@ -91,11 +91,11 @@ export default function App() {
           <div className="overflow-x-auto">
             <table className="min-w-full border-collapse border border-gray-300">
               <thead>
-                <tr className="bg-blue-500 text-white">
-                  <th className="border border-gray-300 px-4 py-3 text-left font-semibold">과목</th>
-                  <th className="border border-gray-300 px-4 py-3 text-left font-semibold">점수</th>
-                  <th className="border border-gray-300 px-4 py-3 text-left font-semibold">등급</th>
-                  <th className="border border-gray-300 px-4 py-3 text-left font-semibold">비고</th>
+                <tr className="bg-purple-500 text-white">
+                  <th className="border border-gray-300 px-4 py-6 text-left font-semibold">과목</th>
+                  <th className="border border-gray-300 px-4 py-6 text-left font-semibold">점수</th>
+                  <th className="border border-gray-300 px-4 py-6 text-left font-semibold">등급</th>
+                  <th className="border border-gray-300 px-4 py-6 text-left font-semibold">비고</th>
                 </tr>
               </thead>
               <tbody>
