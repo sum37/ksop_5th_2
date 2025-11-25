@@ -223,7 +223,7 @@ export default function App() {
             - text-green-800 → text-red-800 등
         */}
         <div className="bg-white p-6 rounded-lg shadow-lg mb-8">
-          <h2 className="text-2xl font-bold mb-4 text-gray-800">알림 배지</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-100">알림 배지</h2>
           <div className="flex flex-wrap gap-3">
             <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
               성공
